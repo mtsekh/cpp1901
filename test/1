@@ -1,0 +1,66 @@
+~~1
+стейтмент
+int x = 10;
+выражение
+cout << 5 + 7 << endl;      5 + 7
+~~2
+Функция — это последовательность стейтментов
+Библиотека — это набор скомпилированного кода (например, функций), который был «упакован» для повторного использования в других программах
+~~3
+ стейтменты заканчиваются точкой с запятой        (       ;       )
+~~4
+C++ имеет свой синтаксис: правила написания кода/программ. При компиляции вашей программы,
+компилятор отвечает за то, чтобы ваша программа соответствовала правилам синтаксиса языка C++. Если вы нарушили правила, то компилятор будет ругаться и выдаст вам синтаксическую ошибку.
+~~5
+5.1 = -7
+5,2 = -51
+5.3 = 1
+5.4 = 70
+5.5 = -18
+~~6
+3
+3
+6
+3
+0
+~~7
+
+#include <iostream>
+using namespace std;
+int main() {
+    int x;
+    int y;
+    int z;
+    cout << "enter number 1" << endl;
+    cin >> x;
+    cout << "enter number 2" << endl;
+    cin >> y;
+    cout << "enter number 3" << endl;
+    cin >> z;
+    cout << (x + y + z)/3 <<endl;
+    return 0;
+}
+
+~~8
+
+#include <iostream>
+using namespace std;
+int main() {
+    const int pi = 3;
+    int r;
+    cout << "enter radius" << endl;
+    cin >> r;
+    int formula = pi*r*2;
+    cout << formula << endl;
+    return 0;
+}
+
+~~9
+
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "enter symbol" << endl;
+    if(cin == 'x'){cout << "i now this symol it has number 88"<<endl;}
+    return 0;
+}
